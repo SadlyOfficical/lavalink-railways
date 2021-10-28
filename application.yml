@@ -6,7 +6,7 @@ spring:
     banner-mode: log
 lavalink:
   server:
-    password: youshallnotpass
+    password: aoshin
     sources:
       youtube: true
       bandcamp: true
@@ -33,7 +33,7 @@ sentry:
 logging:
   file:
     max-history: 1
-    max-size: 3MB
+    max-size: 30MB
   path: /app/logs/
 
   level:
